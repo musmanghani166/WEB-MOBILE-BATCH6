@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    display: block;
+}
+.contanir{
+    width: 70%;
+    margin: 0 auto;
+}
+.firstheading{
+    display: flex;
+}
+.firsttext{
+    padding-top: 200px;
+}
+.firsttext p{
+     font-size: 25px;
+}
+.GETSTART{ 
+    border: none;
+    background-color: aqua;
+    color:  white;
+    border-radius: 17px;
+ padding: 8px 20px;
+ font-size: 13px;
+ font-weight: bold;
+}
+body{
+     
+        font-family: 'Raleway', sans-serif;
+        margin: 0px;
+        font-size: 1rem;
+    }
+    
+ 
+.IMG{
+    width: 50%;
+    height: 80%;
+   padding-top: 66px;
+   float: right;
+
+}
+.musicSetting{
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.positions{
+    position:  relative;
+    top: -80px;
+    z-index: -1;
+}
+.music{
+    background-image: url(/assest/image/bg.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+    
+}
+.musicMain{
+    display: flex;
+    padding: 225px 0px ;
+}
+.divwhite{
+    text-align: center;
+    padding-top: 140px;
+     padding-bottom: 140px;
+}
+.divwhite h1{
+    font-size: xx-large;
+}
+.VISITUS{
+     border: none;
+     border-radius: 16px;
+     background-color: aqua;
+     color: white;
+     font-size:  small;
+      padding: 10px 20px;
+      font-weight: bold;
+}
+.divwhite p{
+    font-size: 18px;
+}
+.contanir4{
+    background-image: url(/assest/image/bg.jpg);
+height: 100%;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+color: white;
+padding-top: 145px;
+padding-bottom: 145px;
+box-sizing: border-box;
+}
+.mainbox {
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    padding-top: 50px;
+}
+ .box1{
+      height:100px;
+        border: 3px solid  white;
+       padding: 50px;
+       margin: 20px;
+       align-items: center;
+       font-weight: bold;
+       border-style: dashed;
+     }
+ 
+ .box2{
+     align-items: center;
+        height:100px;
+        border: 3px solid  white;
+       padding: 50px;
+       margin: 20px;
+       font-weight: bold;
+       border-style: dashed;
+     }
+     .footer{
+        padding-top: 100px;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer p img{
+        width: 2%;
+        animation-duration: 5s;
+}
+        
+    
+    .name{
+        text-decoration: underline;
+    }
+ 

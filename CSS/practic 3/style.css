@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+header nav a {
+display: inline-block;
+text-decoration: none;
+margin: 10px 0;
+background-color: #1d5968;
+border: 1px solid #1d5968;
+color: white;
+padding: 3px 6px;
+transition: 0.25s;
+}
+header nav a:hover {
+    background-color: white;
+    color: #1d5968;
+}
+main h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Rubik Gemstones', cursive;
+}
+main h2{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-family: 'Sevilane', cursive;
+    font-size: 72px;
+}
+.box{
+    display: inline-block;
+    width: 33.33%;
+    padding: 0 16px;
+}
+.card{
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid;
+    
+    border: 1px solid;
+border-color: red green blue yellow;
+transition: all 0.5s;
+}
+.card:hover{
+    background: #1d5968;
+    color: white;
+    font-weight: bold;
+    border-color:#1d5968 ;
+
+}
+.box1{
+    margin-bottom: 20px;
+
+}
+.box2{
+    margin-top: 30px;
+}
+main p{
+    text-align: justify;
+    text-align-last: center;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    text-indent: 90px;
+    line-height: 30px;
+    white-space: wrap;
+    font-family: sans-serif;
+}

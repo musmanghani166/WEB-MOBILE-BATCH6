@@ -1,0 +1,62 @@
+   
+
+
+  
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.navbar .logo{
+    float: left;
+}
+.navbar .btn{
+    margin-top: 11px;
+    border-radius: 5px;
+    font-size: small;
+    padding: 8px 12px;
+    float: right;
+    color: black;
+    background-color: white;
+}
+.navbar::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.container{
+    margin: 0 150px;
+}
+.container h3{
+    padding: 40px 0;
+}
+.container table{
+    border-color: lightgray;
+    border-collapse: collapse;
+}
+.container table th,td{
+    padding: 10px;
+}
+.container table td{
+    font-size: small;
+}
+footer{
+    background-color: rgb(12, 12, 12);
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+}
+.color-gray{
+    background-color: rgb(21, 20, 20);
+    
+}
+ 

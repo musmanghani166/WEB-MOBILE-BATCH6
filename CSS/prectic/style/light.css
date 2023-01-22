@@ -1,0 +1,49 @@
+  
+ .navbar{
+   background-color: rgb(154, 168, 168);
+    
+
+ }
+ header{
+   background-color: white;
+   padding-left: 10%;
+    padding-right: 10%;
+ }
+  
+ button{
+   margin-top: 10px;
+    background-color: black;
+    padding: 10px;
+    float: right;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+ .button{
+   text-decoration: none;
+   color: white;
+ }
+  
+ .table1{
+   border: 1px solid black;
+   border-collapse: collapse;
+   font-size: small;
+ }
+ table, th, td{
+   padding: 10px 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+ }
+ .footer{
+   text-align: center;
+   background-color: ;
+ }
+ .navtable{
+    padding: 30px;
+
+ }

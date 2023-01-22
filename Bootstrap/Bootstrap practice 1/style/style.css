@@ -1,0 +1,17 @@
+#hero-section{
+    background-image: url(/assest/image/architect.jpg);
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+}
+ .team2 img{
+    filter: grayscale(75%);
+ }
+.br-text{
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.hr{
+    border: .25px solid black;
+}
+ 
+ 

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+Breakpoints
+1 - 575
+576 - 767
+768 - 991
+992 - 1199
+1200 - 1399
+1400 -
+
+font-size: 16px;
+0 = 0
+1 = 0.25rem = 4px
+2 = 0.5rem = 8px
+3 = 1rem = 16px
+4 = 1.5rem = 24px
+5 = 3rem = 48px
