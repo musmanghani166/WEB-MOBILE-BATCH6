@@ -9,4 +9,4 @@ flex-wrap:wrap;
 flex-wrap:wrap-reverse;flex-wrap: column  wrap;
 flex-grow:1;
 flex-shrink:1;
-align-self:center;
+align-self:center;.
