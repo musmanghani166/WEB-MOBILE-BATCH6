@@ -1,0 +1,37 @@
+1 Document
+
+. getElementByID
+. getElementByTagName
+. createElement
+. createTextNode
+. createAttribute
+. addEventListener
+
+2 Node
+
+. appendChild(node)
+. removehild(node)
+. hasChildNodes()
+. ChildNodes()
+. parentNode()
+. insertBefore(new,existing)
+
+                .DOM EVENTS.
+3 Mouse
+
+. onclick
+. onmouseover
+. onmouseout
+
+4 Keyboard
+
+. onkeydown
+. onkeyup
+. onkeypress
+
+5 Form
+
+. onchange
+. onfocus
+. onblur
+. oninput
