@@ -1,0 +1,53 @@
+
+h1{
+    font-size: xx-large;
+}
+
+.container{
+    text-align: center;
+}
+#input{
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+ }
+table{
+    margin: auto;
+}
+ button{
+    font-size: 23px;
+ }
+.black{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 27px;
+     
+}
+.yelow{
+    background-color:  orange;
+
+    color: black;
+    border: none;
+    padding: 20px 27px;
+}
+.dark{
+    background-color: darkgrey;
+    color: black;
+    border: none;
+    padding: 20px;
+}
+.yellow{
+     background-color:  orange;
+     color: white;
+     border: none;
+     padding: 27px;
+}
+
+
+
+
+
+
+
+ 
