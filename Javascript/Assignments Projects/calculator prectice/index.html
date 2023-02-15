@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <div class="container">
- <h1>Calculator</h1>
- <input type="text" id="input">
- <table>
-    <tr>
-        <td><button class="dark">AC</button></td>
-        <td><button class="dark">%</button></td>
-        <td><button class="dark">+/-</button></td>
-        <td><button class="yelow">/</button></td>
-    </tr>
-    <tr>
-        <td><button class="black">7</button></td>
-        <td><button class="black">8</button></td>
-        <td><button class="black">9</button></td>
-        <td><button class="yellow">*</button></td>
-    </tr>
-    <tr>
-        <td><button class="black">4</button></td>
-        <td><button class="black">5</button></td>
-        <td><button class="black">6</button></td>
-        <td><button class="yellow">-</button></td>
-    </tr>
-    <tr>
-        <td><button class="black">1</button></td>
-        <td><button class="black">2</button></td>
-        <td><button class="black">3</button></td>
-        <td><button class="yellow">+</button></td>
-    </tr>
-    <tr>
-        <td><button class="black" >0</button></td>
-        <td><button class="black"  >,</button></td>
+        <h1>Calculator</h1>
+        <div class="calculator">
+            <input type="text" id="input" placeholder="0">
+            <table>
+                <tr>
+                    <td><button class="btn"  onclick="document.getElementById('input').value=''">C</button></td>
+                     <td><button onclick="document.getElementById('input').value+='('">(</button></td>
+                    <td><button onclick="document.getElementById('input').value+=')'">)</button></td>
+                    <td><button  onclick="document.getElementById('input').value+='/'" >/</button></td>
+                </tr>
+                     <td><button onclick="document.getElementById('input').value+='7'">7</button></td>
+                    <td><button  onclick="document.getElementById('input').value+='8'">8</button></td>
+                    <td><button  onclick="document.getElementById('input').value+='9'">9</button></td>
+                    <td><button  onclick="document.getElementById('input').value+='*'" >*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="document.getElementById('input').value+='4'" >4</button></td>
+                    <td><button  onclick="document.getElementById('input').value+='5'">5</button></td>
+                    <td><button  onclick="document.getElementById('input').value+='6'">6</button></td>
+                    <td><button  onclick="document.getElementById('input').value+='-'" >-</button></td>
+                </tr>
+                <tr>
+                    <td><button  onclick="document.getElementById('input').value+='1'">1</button></td>
+                    <td><button  onclick="document.getElementById('input').value+='2'">2</button></td>
+                    <td><button  onclick="document.getElementById('input').value+='3'">3</button></td>
+                    <td><button onclick="document.getElementById('input').value+='+'">+</button></td>
+                </tr>
+                <tr>
+                    <td><button  onclick="document.getElementById('input').value+='0'">0</button></td>
+                    <td><button  onclick="document.getElementById('input').value+='00'">00</button></td>
+
+                    <td><button  onclick="document.getElementById('input').value+='.'">.</button></td>
+                    <td><button  onclick="document.getElementById('input').value=eval(document.getElementById('input').value)">=</button></td>
+                    <script src="/script.js"></script>
+                </tr>
+            </table>
+        </div>
          
-        <td><button class="black">.</button></td>
-        <td><button class="yellow">=</button></td>
-    </tr>
- </table>
-
-
     </div>
 
 
 
 
-    <script src="/script.js"></script>
+     
 </body>
+
 </html>
