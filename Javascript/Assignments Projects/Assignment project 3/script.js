@@ -62,13 +62,14 @@ document.getElementById('output').innerHTML = '<span style="color: green; font-s
 // generatertable
 
 function generateTable() {
-    let number = document.getElementById('inputText').value;
-    if(number === ""){
-        toastifyError('Please enter a number.');
+    let num = document.getElementById("inputText").value;
+    if (!num) {
+        alert("Please Type a Number In Input Box")
         return;
     }
-    let limit = +prompt('Give a number')
-    document.getElementById('output').innerHTML = limit * 7;
-
-
+    let range = +prompt("Give The Range");
+    document.getElementById("output").innerHTML = "";
+    for (let index = 1; index <= range; index++) {
+        document.getElementById("output").innerHTML += num + " * " + index + " = " + num * index + "<br>";
+    }
 }
