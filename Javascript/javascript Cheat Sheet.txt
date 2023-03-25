@@ -35,3 +35,18 @@
 . onfocus
 . onblur
 . oninput
+
+6 value check
+. (type of)
+
+
+7 variable of array in add to name
+
+. let name = push()
+. let name = pop()
+. let name = unshift()
+. let name = shift()
+
+8 variable copy
+
+. let name = name.skice()
