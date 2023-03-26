@@ -20,3 +20,19 @@ var name = "usman"
 
 
 //  how to ckeak data type in { typeof()}
+ 
+// function abc(a , b){
+    
+//     var result = a + b
+//     console.log("abcSum is = result")
+// }
+
+// abc()
+
+var firstName = '2323,43'
+var number = 2343
+var flag = false
+
+console.log('firstName ', typeof(firstName))
+console.log('number ', typeof(number))
+console.log('flag ', typeof(flag))
