@@ -84,30 +84,43 @@ else {
 
 //   Q.NO:7  js program to check whether a character is alphabet or not
 
-    var abc = prompt("entar your any alphabet");
-    var alphabat = "qwertyuiopasdfghjklzxcvbnm" ;
+var abc = prompt("entar your any alphabet");
+var alphabat = "qwertyuiopasdfghjklzxcvbnm" ;
+var isAlphabet = false;
+for (let index = 0; index < alphabat.length ; index++) {
+    if(abc.toLowerCase() == alphabat.charAt(index)){
+        isAlphabet = true
+    }
+}
+if(isAlphabet){
+    console.log("Your word is the alphabet")
+}
+else{
+    console.log("Your word is  not alphabet")
+}
 
-    if(abc = alphabat){
-        console.log("Your word is the alphabet")
-    }
-    else{
-        console.log("Your word is  not alphabet")
-    }
+
 
 //   _______________________________________________________________________________________________  //
 
-// Q.NO:7 js program to input any alphabet and check whether it is vowel or consonant
+// Q.NO:8 js program to input any alphabet and check whether it is vowel or consonant
 
     var abc = prompt("entar your any alphabet");
-    var vowel = "aeiou" ;
-    var  consonant = "qwrtyplkjhgfdszxcvbnm";
-
-    if(abc = vowel){
-        console.log("Your word is the vowel")
+var alphabat = "aeiou" ;
+var isAlphabet = false;
+for (let index = 0; index < alphabat.length ; index++) {
+    if(abc.toLowerCase() == alphabat.charAt(index)){
+        isAlphabet = true
     }
-    else {
-        console.log("Your word is  consonant")
-    }
+}
+if(isAlphabet){
+    console.log("Your word is the vowel")
+}
+else{
+    console.log("Your word is  consonant")
+}
     
 
     //   _______________________________________________________________________________________________  //
+
+     
