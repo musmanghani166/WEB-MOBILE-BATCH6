@@ -107,20 +107,71 @@ else{
 
     var abc = prompt("entar your any alphabet");
 var alphabat = "aeiou" ;
-var isAlphabet = false;
+var isVowel = false;
 for (let index = 0; index < alphabat.length ; index++) {
     if(abc.toLowerCase() == alphabat.charAt(index)){
-        isAlphabet = true
+        isVowel = true
     }
 }
-if(isAlphabet){
+if(isVowel){
     console.log("Your word is the vowel")
 }
 else{
     console.log("Your word is  consonant")
 }
-    
+
 
     //   _______________________________________________________________________________________________  //
 
-     
+// Q.NO:9  js program to input any character and check whether it is alphabet, digit or special characte
+
+var prompt = prompt("entar your any word");
+var abc = "abcdefghijklmnopqrstuvwxyz"
+var num = "1234567890" 
+var isAlphabet = false
+var isDigit = false
+for (let index = 0; index < abc.length; index++) {
+    if(prompt == abc.charAt(index)){
+        isAlphabet =true
+    }
+}
+for (let index = 0; index < num.length; index++) {
+    if(prompt == num.charAt(index)){
+        isDigit =true
+    }
+}
+if(isAlphabet){
+    console.log("Your word is the alphabet")
+
+}
+else if(isDigit){
+    console.log("Your word is the digit")
+}
+else {
+    console.log("Your word is the special character ")
+ }
+
+//    _______________________________________________________________________________________________  //
+
+
+
+// Q.NO:10  js program to check whether a character is uppercase or lowercase alphabet.
+
+var prompt = prompt("entar your any word");
+ var abc = "abcdefghijklmnopqrstuvwxyz"
+ var ABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+     inAbc = false
+ for (let index = 0; index < abc.length ; index++) {
+        if(prompt === abc.charAt(index)){
+            inAbc = true
+        }
+         
+    }
+    if(inAbc){
+        console.log("your alphabet is lower case")
+    }
+    else{
+        console.log("your alphabet is upper case")
+    }
+
+    //     _______________________________________________________________________________________________  //
