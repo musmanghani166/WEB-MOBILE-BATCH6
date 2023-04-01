@@ -43,8 +43,8 @@
 // // + can be done two things> 1- it can be math operation or 2- it can be concat operation
 // // How we can deside about + operator, that referring to concat or simple  math plus?
 
-var num1 = 6
-var num2 = 5
+// var num1 = 6
+// var num2 = 5
 // var num3 = 5
 
 // num1 = parseInt(num1)
@@ -53,15 +53,19 @@ var num2 = 5
 // // write a js programe to convert c temp into f ?
 // // (32°F − 32) × 5/9 = 0°C
 
-var tempInC =+ prompt("enter your tampracher")
+// var tempInC =+ prompt("enter your tampracher")
 // var tempInF = (tempInC* 9/5) + 32  
  
 
 // console.log("temp In F", tempInF)
 
-var num4 = 9
-var num5 = 10
+// var num4 = 9
+// var num5 = 10
 
-var flag = num1 >= num2 && num5 >= num4 
+// var flag = num1 >= num2 && num5 >= num4 
 
-console.log(flag);
+// console.log(flag);
+
+  document.getElementById("heading").innerHTML = "Prictice in folder"
+
+
