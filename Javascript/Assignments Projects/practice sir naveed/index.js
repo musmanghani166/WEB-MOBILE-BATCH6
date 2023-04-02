@@ -135,21 +135,22 @@
 // }
 
 
-// // Do while loop
-// do {
-//     console.log("do while loop")
-//     num++;
-// } while (num < 50);
+// Do while loop
+do {
+    console.log("do while loop")
+    num++;
+} while (num < 50);
 
 
 
 
 
-// function sum(num1, num2) {
-//     var x = num1 + num2
+function sum(num1, num2) {
+    var x = num1 + num2
     
-//     return;
-// }
+    return;
+}
 
-// var c = sum(3,1) + sum()
-// console.log(c);
+var c = sum(3,1) + sum()
+console.log(c);
+var num5 = 243
