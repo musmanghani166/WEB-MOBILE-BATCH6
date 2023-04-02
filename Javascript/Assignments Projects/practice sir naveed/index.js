@@ -77,7 +77,7 @@
 // }
 // evenOdd()
 
-// Switch Statement
+// // Switch Statement
 // var day = "Mon"
 
 //  switch (day) {
@@ -127,16 +127,29 @@
 // for in loop
 
 
-// While Loop
-var num = 0
-while (num < 50) {
-    console.log(" while loop")
-    num++;
-}
+// // While Loop
+// var num = 0
+// while (num < 50) {
+//     console.log(" while loop")
+//     num++;
+// }
 
 
-// Do while loop
-do {
-    console.log("do while loop")
-    num++;
-} while (num < 50);
+// // Do while loop
+// do {
+//     console.log("do while loop")
+//     num++;
+// } while (num < 50);
+
+
+
+
+
+// function sum(num1, num2) {
+//     var x = num1 + num2
+    
+//     return;
+// }
+
+// var c = sum(3,1) + sum()
+// console.log(c);

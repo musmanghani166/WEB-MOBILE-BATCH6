@@ -31,7 +31,7 @@ else if (age > 35) {
 //  Q.No:3 js program to check whether a number is negative, positive or zero
     var num =+ prompt("entar your any number");
 
-   if(num <= -1){
+   if(num < -1){
     console.log("your number is nagitive", num)
    }
    else if(num > 0){
