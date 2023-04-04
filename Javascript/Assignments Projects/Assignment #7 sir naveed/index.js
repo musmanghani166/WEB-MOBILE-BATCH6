@@ -265,3 +265,22 @@ if (sumAngle == 180) {
 }
 
     //     _______________________________________________________________________________________________  //
+
+// Q.NO:18 js program to calculate profit or loss
+
+let sellingPrice =+ prompt("Enter your Selling Price")
+let  costPrice =+ prompt("Enter your  Cost Price")
+function calculateProfitOrLoss(costPrice, sellingPrice) {
+if (sellingPrice > costPrice) {
+    let profit = sellingPrice - costPrice ;
+    console.log(`You made a profit ${profit}`);
+} else if(sellingPrice < costPrice){
+    let loss = costPrice - sellingPrice ;
+    console.log(`you made a loss ${loss}`);
+}else{
+    console.log("You broke even");
+}
+}
+calculateProfitOrLoss(sellingPrice, costPrice)
+
+ //     _______________________________________________________________________________________________  //
