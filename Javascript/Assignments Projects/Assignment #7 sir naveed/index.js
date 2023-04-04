@@ -190,7 +190,7 @@ if (index >= 1 && index <= 12 ) {
 
 // Q.NO:13 js program to count total number of notes in given amount
 var prompt =+ prompt("entar your  amount");
- 
+
 function countNotes(amount) {
     const notes = [2000, 500, 200, 100, 50, 20, 10, 5, 2, 1];   
     let noteCounts = {};  
@@ -200,9 +200,68 @@ function countNotes(amount) {
       amount -= count * note;  
       noteCounts[note] = count; 
     }
-    
+
     return noteCounts;
   }
   console.log(countNotes(prompt));  
+
+    //     _______________________________________________________________________________________________  //
+
+// Q.NO:14  js program to input angles of a triangle and check whether triangle is valid or not
+
+let angle1 =+ prompt("Enter your 1th angle")
+let angle2 =+ prompt("Enter your 2th angle")
+let angle3 =+ prompt("Enter your 3th angle")
+
+let SumAngle = angle1 + angle2 + angle3
+
+if (SumAngle == 180) {
+    console.log("Triangle is valid");
+} else {
+    console.log("Triangle is not valid");
+}
+
+    //     _______________________________________________________________________________________________  //
+
+// Q.NO:15  js program to input all sides of a triangle and check whether triangle is valid or not
+
+let side1 =+ prompt("Enter your 1th side")
+let side2 =+ prompt("Enter your 2th side")
+let side3 =+ prompt("Enter your 3th side")
+
+
+
+if (side1 + side2 > side3 && side3 + side2 > side1 && side1 + side3 > side2) {
+    console.log("Triangle is valid");
+} else {
+    console.log("Triangle is not valid");
+}
+
+    //     _______________________________________________________________________________________________  //
+
+// Q.NO:16 js program to check whether the triangle is equilateral, isosceles or scalene triangle.
+
+let Angle1 = + prompt("Enter your 1th angle")
+let Angle2 = + prompt("Enter your 2th angle")
+let Angle3 = + prompt("Enter your 3th angle")
+
+let Side1 = + prompt("Enter your 1th side")
+let Side2 = + prompt("Enter your 2th side")
+let Side3 = + prompt("Enter your 3th side")
+
+
+let sumAngle = Angle1 + Angle2 + Angle3
+
+if (sumAngle == 180) {
+    if (Side1 === Side2 && Side2 === Side3) {
+        console.log("Triangle is equilateral");
+    } else if (Side1 === Side2 || Side2 === Side3 || Side1 === Side3) {
+        console.log("Triangle is isosceles");
+    } else {
+        console.log("Triangle is scalene");
+    }
+} else {
+    console.log("Triangle is not valid");
+}
 
     //     _______________________________________________________________________________________________  //
