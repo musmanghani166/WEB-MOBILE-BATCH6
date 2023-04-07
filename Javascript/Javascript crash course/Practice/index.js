@@ -40,3 +40,17 @@ console.log(randomNum);
 // . To eliminate the upper one
 randomNum = Math.round(randomNum)
 console.log(randomNum);
+
+// _________________________________Class #3______________________________________________________
+
+// coparison oprater 
+//  == , === 
+// == : value cheak
+// === : value and data type cheak
+
+// for loop
+for (let index = 0; index < 10; index++) {
+     console.log("hello")
+}
+
+// _________________________________Class #4______________________________________________________
