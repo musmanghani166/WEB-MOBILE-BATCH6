@@ -71,12 +71,25 @@
 //   let result = add(5,7)
 //   console.log(result);
 // Recursion
-function writeData(data) {
-    document.write(data)
-    if (time70) {
-        write(data, time-1)
-    }
+// function writeData(data) {
+//     document.write(data)
+//     if (time70) {
+//         write(data, time-1)
+//     }
 
-}
-console.log("hello ",5);
- 
+// }
+// console.log("hello ",5);
+// Factorial
+// function Factorial(num1) {
+//     if(num1 > 1){
+//         return num1 * Factorial(num1-1)
+//     }
+//     return 1
+// }
+// console.log(Factorial(5));
+// 
+// closures  =>  scope
+// Global-scope  =>  Whole file
+// child Scope  =>  inside function
+
+// _________________________________Class #5______________________________________________________
