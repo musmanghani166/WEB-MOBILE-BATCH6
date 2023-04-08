@@ -93,3 +93,51 @@
 // child Scope  =>  inside function
 
 // _________________________________Class #5______________________________________________________
+
+// // Array function
+// let months =  ["feb"," mar"," apr", "may", "jun"]
+//  months.push("aug")
+//  months.shift()
+// months.unshift("aug")
+// months.pop()
+// months.length
+// months.splice(1, 2)((
+// console.log(months.slice(1, 3));
+// console.log(months);
+
+
+// //  Loops
+// let arr = [1, 2, 3, 4, 5]
+// arr.forEach(function(value, index){
+//     console.log( value, index); 
+// })
+
+// 
+// // Are.filter
+
+// let arr = [2, 5, 2];
+// let array = arr.filter(function (value) {
+//     if(value % 2 === 0){
+//         return true;
+//     }
+// })
+ 
+//  console.log(array);
+// // arr,sort()
+// let arr = [1, 2, 3, 5, 6, 4, 7, 8, 9]
+// let sort = arr.sort(function(a, b){
+//     if(a < b){
+//         return 1;
+//     }else{
+//         return -1;
+//     }
+// })
+// console.log(sort);
+
+// reduce
+
+let arr = [1, 2, 3, 5, 6, 4, 7, 8, 9];
+let reduce = arr.reduce(function(prevValue, currValue){
+    return prevValue + currValue;
+})
+console.log(reduce);
