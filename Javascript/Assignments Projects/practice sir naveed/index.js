@@ -136,21 +136,48 @@
 
 
 // Do while loop
-do {
-    console.log("do while loop")
-    num++;
-} while (num < 50);
+// do {
+//     console.log("do while loop")
+//     num++;
+// } while (num < 50);
 
 
 
 
 
-function sum(num1, num2) {
-    var x = num1 + num2
+// function sum(num1, num2) {
+//     var x = num1 + num2
+
+//     return;
+// }
+
+// var c = sum(3,1) + sum()
+// console.log(c);
+// var num5 = 243
+
+// // Arrays
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7]
+// console.log(numbers[0]);
+// let Name = ["usman", "ali", "naveed"]
+// Name[1] = "Ghani"
+// console.log(Name[1]);
+// console.log(Name.length);
+// // write a js programe to print or whole element from the array !
+
+// for (let index = 0; index < Name.length; index++) {
+//     console.log("Array value using loop", Name[index]);
     
-    return;
-}
+// }
 
-var c = sum(3,1) + sum()
-console.log(c);
-var num5 = 243
+// // increment or decrement ++, --
+
+// var num1 = 1;
+// num1++
+// num1 = num1 + 1
+
+// // decrement
+
+// num2 = 2;
+// num2--
+// num2 = num2 - 2
