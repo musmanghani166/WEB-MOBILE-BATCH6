@@ -157,7 +157,7 @@
 
 // // Arrays
 
-// let numbers = [1, 2, 3, 4, 5, 6, 7]
+let numbers = [1, 2, 3, 4, 5, 6, 7]
 // console.log(numbers[0]);
 // let Name = ["usman", "ali", "naveed"]
 // Name[1] = "Ghani"
@@ -167,8 +167,20 @@
 
 // for (let index = 0; index < Name.length; index++) {
 //     console.log("Array value using loop", Name[index]);
-    
+
 // }
+//  numbers.push(8) Add element to the end
+// numbers.pop() remove last element
+// numbers.fill(1) fill every element [1,1,1,1,1]
+// numbers.shift() remove first element
+//  numbers.unshift(0) add element to first
+// numbers.reverse() short in descending a specific
+// numbers.includes(0) is array contains a specified value
+//  numbers.toString() convert to string
+// numbers.splice(2,2, 7,8) add element
+//  numbers.slice(1,7) slice element 
+
+console.log(numbers);
 
 // // increment or decrement ++, --
 
@@ -181,3 +193,4 @@
 // num2 = 2;
 // num2--
 // num2 = num2 - 2
+
