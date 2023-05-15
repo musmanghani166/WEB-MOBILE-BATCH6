@@ -157,7 +157,7 @@
 
 // // Arrays
 
-let numbers = [1, 2, 3, 4, 5, 6, 7]
+// let numbers = [1, 2, 3, 4, 5, 6, 7]
 // console.log(numbers[0]);
 // let Name = ["usman", "ali", "naveed"]
 // Name[1] = "Ghani"
@@ -180,7 +180,7 @@ let numbers = [1, 2, 3, 4, 5, 6, 7]
 // numbers.splice(2,2, 7,8) add element
 //  numbers.slice(1,7) slice element 
 
-console.log(numbers);
+// console.log(numbers);
 
 // // increment or decrement ++, --
 
@@ -194,3 +194,43 @@ console.log(numbers);
 // num2--
 // num2 = num2 - 2
 
+
+// // switch stament
+// var num = +prompt("enter number")
+
+// switch (num) {
+//     case 0:
+//         console.log('sunday');
+//         break;
+//     case 1:
+//         console.log('monday');
+//         break;
+//     case 2:
+//         console.log('tuesday');
+//         break;
+//     case 3:
+//         console.log('wednesday');
+//         break;
+
+//     default:
+//         console.log('none');
+//         break;
+// }
+
+
+// let Array = [3, 4,5,6,2,1]
+// for (let index = 0; index < Array.length; index++) {
+//      console.log(Array[index]);
+    
+// }
+
+// let string = "as4cx3y6"
+// for (let index = 0; index <  string.length; index++) {
+     
+//     console.log(string.charAt(index));
+// }
+
+let string = "abcfmno"
+//  console.log(string. lastIndexOf("mno"));
+
+console.log(toString(16));
